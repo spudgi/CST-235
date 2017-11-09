@@ -9,7 +9,6 @@ public class javaBean {
 	static double diskSpace3 = 0;
 	static double diskSpace4 = 0;
 
-
     public static void main(String[] args) {
     	
     	Scanner reader = new Scanner(System.in);  
@@ -32,19 +31,17 @@ public class javaBean {
         diskSpace3 = sizeVideo1.getFileSizeMB();
         
         diskSpace4 = sizeVideo2.getFileSizeMB();
-        
-        
-        
+                
         // Print out results 
         System.out.println("A video with a resolution of " + sizeVideo1.getResolution() + "p\n"
-        +"with a length of " + sizeVideo1.getVideoLength() + " seconds,\n"
-        +"will require " + String.format( "%.2f", diskSpace3 )+ " GB of disk space and " + String.format( "%.2f", diskSpace1 )+ " MB of disk space.");
-        
+	        +"with a length of " + sizeVideo1.getVideoLength() + " seconds,\n" + "will require " + String.format( "%.2f", diskSpace3 )+ " GB of disk space and,\n"
+        			+ String.format( "%.2f", diskSpace1 )+ " MB of disk space.");
+	        
         System.out.println();
         
         System.out.println("A video with a resolution of " + sizeVideo2.getResolution() + "p\n"
-                +"with a length of " + sizeVideo2.getVideoLength() + " seconds,\n"
-                +"will require " + String.format( "%.2f", diskSpace4 )+ " GB of disk space and " + String.format( "%.2f", diskSpace2 )+ " MB of disk space.");
+            +"with a length of " + sizeVideo2.getVideoLength() + " seconds,\n" + "will require " + String.format( "%.2f", diskSpace4 )+ " GB of disk space and,\n"
+            		+ String.format( "%.2f", diskSpace2 )+ " MB of disk space.");
        
     }
 }
