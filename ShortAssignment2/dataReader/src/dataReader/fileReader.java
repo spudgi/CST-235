@@ -1,4 +1,5 @@
-package Tester;
+//found on stack overflow with some modifications//
+package dataReader;
 
 import java.io.File;
 import java.io.FileNotFoundException;

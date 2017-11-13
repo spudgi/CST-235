@@ -1,10 +1,11 @@
-package Tester;
+//Caleb Miller and is his own work//
+package dataReader;
 
 import java.io.Serializable;
 
 public class theBean implements Serializable {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 42L;
 
 	public theBean() {
 		
