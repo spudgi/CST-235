@@ -1,4 +1,6 @@
 <%@ page contentType="text/html"%>
+<%@ taglib uri="http://java.sun.com/jsf/core" prefix="f"%>
+<%@ taglib uri="http://java.sun.com/jsf/html" prefix="h"%>
 
 <f:view>
 	<html>
@@ -6,9 +8,8 @@
 <link href="styles.css" rel="stylesheet" type="text/css" />
 <title><h:outputText value="#{msg.title}" /></title>
 </head>
-<body bgcolor="silver">
+<body bgcolor="grey">
 	<h:form>
-	//this is the final result screen to show that it went through with the purchase or donation.
 		<h1>
 			<h:outputText value="#{msg.payment_Info}" />
 		</h1>
